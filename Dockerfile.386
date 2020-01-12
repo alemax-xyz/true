@@ -1,0 +1,5 @@
+FROM scratch
+
+COPY src/true.386 /bin/true
+
+CMD ["/bin/true"]

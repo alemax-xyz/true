@@ -1,0 +1,5 @@
+FROM scratch
+
+COPY src/true.ppc64le /bin/true
+
+CMD ["/bin/true"]

@@ -1,0 +1,5 @@
+FROM scratch
+
+COPY src/true.armv7 /bin/true
+
+CMD ["/bin/true"]

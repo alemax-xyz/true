@@ -1,0 +1,5 @@
+FROM scratch
+
+COPY src/true.s390x /bin/true
+
+CMD ["/bin/true"]
